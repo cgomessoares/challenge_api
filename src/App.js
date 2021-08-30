@@ -23,7 +23,6 @@ class App extends Component{
         <h1>
           Filmes
         </h1>
-        { console.log(filmes) }
         {filmes.map(filme => (
           <li key={filme.show.id}>
             <h2>
